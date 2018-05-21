@@ -1,5 +1,7 @@
 # CountryFlag-Android
 
+- Gradle 
+
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -39,5 +41,33 @@ if (flagId > 0) {
 	
 }
 		    
+		
+- Maven
+
+	<repositories>
+	
+		<repository>
+		
+		    <id>jitpack.io</id>
 		    
+		    <url>https://jitpack.io</url>
+		    
+		</repository>
+		
+	</repositories>
+	
+	
+Step 2. Add the dependency
+
+	<dependency>
+	
+	    <groupId>com.github.YingInfo</groupId>
+	    
+	    <artifactId>CountryFlag-Android</artifactId>
+	    
+	    <version>0.1</version>
+	    
+	</dependency>
+	
+	
 [![](https://jitpack.io/v/YingInfo/CountryFlag-Android.svg)](https://jitpack.io/#YingInfo/CountryFlag-Android)
