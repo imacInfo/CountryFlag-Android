@@ -21,4 +21,16 @@ Step 2. Add the dependency
 		
 	}
 
+Example : 
+String countryCode = "us";
+
+int flagId = new CountryFlag(context).getFlagByCountryCode(countryCode);
+
+if (flagId > 0) {
+	ivFlag.setImageResource(flagId);
+} else {
+	Toast.makeText(context, "Tip a valid country code", Toast.LENGTH_SHORT).show();
+}
+		    
+		    
 [![](https://jitpack.io/v/YingInfo/CountryFlag-Android.svg)](https://jitpack.io/#YingInfo/CountryFlag-Android)
