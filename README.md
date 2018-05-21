@@ -1,7 +1,7 @@
 # CountryFlag-Android
 
 
-Provides the flag drawable for 200+ countries by country code. (i.e. "ad", "ae")
+Provides the flag drawable for 200+ countries by country code. (i.e.  "ad",  "ae")
 
 
 - Gradle 
