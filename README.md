@@ -1,5 +1,9 @@
 # CountryFlag-Android
 
+
+Provides the flag drawable for 200+ countries by country code. (i.e. "us", "uk")
+
+
 - Gradle 
 
 Add it in your root build.gradle at the end of repositories:
@@ -41,8 +45,12 @@ if (flagId > 0) {
 	
 }
 		    
-		
+
+
 - Maven
+
+
+Step1.
 
 	<repositories>
 	
