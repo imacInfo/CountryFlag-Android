@@ -1,16 +1,17 @@
 # CountryFlag-Android
 
 Add it in your root build.gradle at the end of repositories:
-allprojects {
+
+	allprojects {
 
 		repositories {
-		
+
 			...
-			
+
 			maven { url 'https://jitpack.io' }
-			
+
 		}
-		
+
 	}
 	
 Step 2. Add the dependency
@@ -21,15 +22,21 @@ Step 2. Add the dependency
 		
 	}
 
+
 Example : 
+
 String countryCode = "us";
 
 int flagId = new CountryFlag(context).getFlagByCountryCode(countryCode);
 
 if (flagId > 0) {
+
 	ivFlag.setImageResource(flagId);
+	
 } else {
+
 	Toast.makeText(context, "Tip a valid country code", Toast.LENGTH_SHORT).show();
+	
 }
 		    
 		    
