@@ -1,7 +1,7 @@
 # CountryFlag-Android
 
 
-Provides the flag drawable for 200+ countries by country code. (i.e. "us", "uk")
+Provides the flag drawable for 200+ countries by country code. (i.e. "ad", "ae")
 
 
 - Gradle 
@@ -31,7 +31,7 @@ Step 2. Add the dependency
 
 Example : 
 
-String countryCode = "us";
+String countryCode = "ad";
 
 int flagId = new CountryFlag(context).getFlagByCountryCode(countryCode);
 
